@@ -1,0 +1,17 @@
+<div id="app">
+  <foo-bar></foo-bar>
+</div>
+
+<script>
+  Vue.component('foo-bar', {
+    template: `
+      <div id="foo">
+          <h1>This is my component.</h1>
+      </div>
+    `,
+  });
+
+  new Vue({
+    el: '#app',
+  })
+</script>

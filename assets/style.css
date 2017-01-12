@@ -1,0 +1,32 @@
+
+a {
+    color: #CDBB79;
+}
+
+a.dark {
+    color: teal;
+}
+
+ul {
+    text-align: center !important;
+}
+
+li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.meMyselfAndI {
+    border: 3px teal solid;
+}
+
+.social-icon {
+    display: inline-block;
+    padding: 5px;
+}
+
+a.code-block { 
+
+    text-decoration: none;
+
+}

@@ -1,0 +1,12 @@
+<div id="app">
+  <p v-if="showMessage">{{message}}</p>
+  <p v-show="showMessage">{{message}}</p>
+  <ul>
+    <li v-for="i in items">{{i.name}}</li>
+  </ul>
+  <h1 v-bind:id="generatedId"                     v-bind:title="hoverMessage">{{ title }}</h1>
+  <button v-on:click="clicked"> Click me! </button>
+  <form v-on:submit.prevent="onSubmit">
+        <input type="text" />
+  </form>
+</div>
